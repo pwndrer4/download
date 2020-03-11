@@ -1,0 +1,936 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	      <meta charset="UTF-8">
+    <title>DEB推送源™ - 便民APP下载</title>
+  <meta name="keywords" content="cydia,sileo,ios字体,软件源,插件源,UDID签名工具,ipa下载,ipa免越狱签名,UDID个人定制,UDID免签,UDID自动签名,自动签名" /> 
+  <meta name="description" content="cydia,sileo,ios字体,软件源,插件源,UDID签名工具,ipa下载,ipa免越狱签名,UDID个人定制,UDID免签,UDID自动签名,自动签名" /> 
+    <meta content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0" name="viewport" />
+    <meta content="yes" name="apple-mobile-web-app-capable" />
+    <meta content="black" name="apple-mobile-web-app-status-bar-style" />
+    <meta content="telephone=no" name="format-detection" />
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link href="/css/style.css" rel="stylesheet" type="text/css" />
+    <link href="/css/2.css" rel="stylesheet" type="text/css" />  
+  <!--  <meta http-equiv="refresh" content="60"> --->
+    
+<!--<link href="/css/tuijianlogo.css" rel="stylesheet" type="text/css" />  --->
+  <script src="/js/mDialogMin.js"></script>
+<!---
+ <script type="text/javascript">
+      var system = {};
+      var p = navigator.platform;
+      var u = navigator.userAgent;
+
+       system.win = p.indexOf("Win") == 0;
+       system.mac = p.indexOf("Mac") == 0;
+       system.x11 = (p == "X11") || (p.indexOf("Linux") == 0);
+       if (system.win || system.mac || system.xll) {//P
+       if (u.indexOf('Windows Phone') > -1) {  //S
+
+       }else {
+      window.location.href = "http://wz.iwba.cn";
+       }
+      }
+    </script>  
+-->
+  <script type="text/javascript">
+         window.onload = function() {
+             document.onkeydown = function() {
+                 var e = window.event || arguments[0];
+                 if(e.keyCode == 123) {
+ 
+                     return false;
+                 } else if((e.ctrlKey) && (e.shiftKey) && (e.keyCode == 73)) {
+ 
+                     return false;
+                 } else if((e.shiftKey) && (e.keyCode == 121)){
+
+                     return false;
+                 }
+             };
+             document.oncontextmenu = function() {
+
+                 return false;
+             }
+         }
+    </script>
+    <script language="Javascript">
+    document.oncontextmenu=new Function("event.returnValue=false");
+    document.onselectstart=new Function("event.returnValue=false");
+    </script>
+    <script type="text/javascript">
+    document.oncontextmenu=function(e){return false;}
+    </script>
+    <style>
+    body {
+    -moz-user-select:none;  
+    }
+    </style>
+    <script type="text/javascript">
+        document.onkeydown = function () {
+            if (window.event && window.event.keyCode == 123) {
+                event.keyCode = 0;
+                event.returnValue = false;
+                return false;
+            }
+        };
+    </script>   
+
+
+</head>
+
+<body>
+ 	
+    <section class="aui-flexView">
+        <header class="aui-navBar aui-navBar-fixed">
+            <div class="aui-center">
+                <span class="aui-center-title">DEB推送源™ - 便民中心</span>
+            </div>
+
+        </header>
+    <!--顶部轮播-->
+        <section class="aui-scrollView">
+            <div class="m-slider" data-ydui-slider>
+                <div class="slider-wrapper">
+                	<div class="slider-item">
+                        <a target="_blank" href="http://udid.iwba.cn">
+                            <img src="/image/1.png" alt="">
+                        </a>
+                    </div>
+                 
+                	 <div class="slider-item">
+                        <!---<a href="https://dwz.cn/V3HJU4Lz">--->
+                        <a target="_blank" href="http://shop.iwba.cn">
+                            <img src="/image/2.png" alt="">
+                        </a>
+                    </div>
+
+                    <div class="slider-item">
+                        <a target="_blank" href="http://code.iwba.cn/jump.html?id=24">
+                            <img src="/image/3.png" alt="">
+                        </a>
+                    </div>
+                
+                </div>
+                <div class="slider-pagination"></div>
+            </div><br/>
+          
+          <!--单LOGO
+            <div class="aui-palace aui-palace-one">
+                <a href="http://t.cn/E9qayMy" class="aui-palace-grid">
+                    <div class="aui-palace-grid-icon">
+                        <img src="/tb/iuc48.jpg" alt="">           
+                    </div>
+                </a>
+                <a href="http://tb.iuczy.com" class="aui-palace-grid">
+                    <div class="aui-palace-grid-icon">
+                        <img src="/tb/fl.jpg" alt="">
+                    </div>
+                </a>
+                <a href="https://qmxcssr.com" class="aui-palace-grid">
+                    <div class="aui-palace-grid-icon">
+                        <img src="/tb/fl2.jpg" alt="">
+                    </div>
+                </a>
+                 <a href="https://s2.ax1x.com/2019/07/23/eANyH1.jpg" class="aui-palace-grid"> 
+                    <div class="aui-palace-grid-icon">
+                      <img src="/tb/fl4.jpg" alt="">
+                    </div>
+                </a>
+            </div>
+    -->
+ <!--     
+    <div>
+  <input class="btn btn-primary btn-lg" type=button value=刷新 onclick="location.replace(location)" class="btn" style="display:block;margin:0 auto;margin-bottom:10px" >
+  <style>
+    .btn{width:300px;}
+</style></div>
+-->
+
+<!--
+       <center> <span class="source-name">企业版随时失效，建议使用UDID定制</span> </center>
+
+            <br>   ----> 
+  
+<div class="aui-tab" data-ydui-tab>
+ 	
+
+                <ul class="tab-nav b-line">
+                    <li class="tab-nav-item tab-active">
+                        <a href="javascript:;">
+                            <span>精品推荐</span>
+                        </a>
+                    </li>
+                    <li class="tab-nav-item ">
+                        <a href="javascript:;">
+                            <span>越狱工具</span>
+                        </a>
+                    </li>
+                    <li class="tab-nav-item ">
+                        <a href="javascript:;">
+                            <span>福利软件</span>
+                        </a>
+                    </li>
+
+                    <li class="tab-nav-item ">
+                        <a href="javascript:;">
+                            <span>旧版应用</span>
+                        </a>
+                    </li>
+                    
+               <!--      
+                   <li class="tab-nav-item ">
+                        <a href="javascript:;">
+                            <span>描述文件</span>
+                        </a>
+                    </li>
+                   <li class="tab-nav-item ">
+                        <a href="javascript:;">
+                            <span>网赚活动</span>
+                        </a>
+                    </li>
+                   <li class="tab-nav-item ">
+                        <a href="javascript:;">
+                            <span>游戏专区</span>
+                        </a>
+                    </li>
+                   <li class="tab-nav-item ">
+                        <a href="javascript:;">
+                            <span>安卓专区</span>
+                        </a>
+                    </li>
+                   
+                   <li class="tab-nav-item ">
+                        <a target="_blank" href="http://udid.iwba.cn">
+                            <span>UDID定制</span>
+                        </a>
+                    </li>
+                   ---> 
+                </ul>  
+ 
+  <center>
+   <a target="_open" href="https://jq.qq.com/?_wv=1027&k=5U38SyO"> <button type="button" class="el-button base-button el-button--text primary" style="color:#4fc939;margin-bottom:10px;" data-v-0b43de5e="">
+           <span>官方QQ群</span> </button> </a>
+    <a target="_open" href="http://app.iwba.cn/wx.html"> <button type="button" class="el-button base-button el-button--text primary" style="color:#4fc939;margin-bottom:10px;" data-v-0b43de5e="">
+           <span>站长微信</span> </button> </a>
+</center>               
+                
+                <div class="tab-panel">
+
+           <!--1-->
+<div class="tab-panel-item tab-active">
+<div class="aui-group-item b-line">
+<div class="aui-flex">
+<div class="aui-info-user">
+<img class="uclg" src="/image/udid.png"></img></div>
+<div class="aui-flex-box">
+<h3 >UDID定制</h3>
+<span><em>告别掉签名，帮你解决烦恼</em><br/>
+  <em>稳定使用/省心省事/越狱必备</em></span>
+</div>
+<div class="aui-get-button">
+
+<a target="_blank" href="https://udid.zxzco.com"> <button type="button" class="el-button base-button el-button--text primary" style="color:#4fc939;" data-v-0b43de5e="">
+<span>定制</span> </button> </a>
+<a target="_blank" href="https://udid.zxzco.com/query.php"> <button type="button" class="el-button base-button el-button--text primary" style="color:#4fc939;" data-v-0b43de5e="">
+<span>查询</span> </button> </a>
+</div></div> </div> 
+
+<div class="aui-group-item b-line">
+<div class="aui-flex">
+<div class="aui-info-user">
+<img class="uclg" src="/image/iwba.png"></img></div>
+<div class="aui-flex-box">
+<h3 >官方APP</h3><span>
+<em>DEB推送源™官方APP，防止迷路！</em>
+</span></div>
+<div class="aui-get-button">
+<a  href="/app.mobileconfig" > <button type="button" class="el-button base-button el-button--text primary" style="color:#4fc939;" data-v-0b43de5e="">
+<span>安装</span> </button> </a> 
+</div></div> </div>
+
+<div class="aui-group-item b-line">
+<div class="aui-flex">
+<div class="aui-info-user">
+<img class="uclg" src="/image/Cydia.png"></img></div>
+<div class="aui-flex-box">
+<h3 >cydia源</h3><span>
+<em>精品插件，精美字体，破解补丁等</em>
+</span></div>
+<div class="aui-get-button">
+<a target="_blank" href="http://apt.iwba.cn" > <button type="button" class="el-button base-button el-button--text primary" style="color:#4fc939;" data-v-0b43de5e="">
+<span>添加</span> </button> </a> 
+</div></div> </div>
+
+<div class="aui-group-item b-line">
+<div class="aui-flex">
+<div class="aui-info-user">
+<img class="uclg" src="/image/淘宝.png"></img></div>
+<div class="aui-flex-box">
+<h3 >淘宝优惠券</h3><span>
+<em>先领券再下单，一年省回几千块</em>
+</span></div>
+<div class="aui-get-button">
+<a target="_blank" href="http://shop.zxzco.com" > <button type="button" class="el-button base-button el-button--text primary" style="color:#4fc939;" data-v-0b43de5e="">
+<span>领券</span> </button> </a> 
+</div></div> </div>
+
+
+
+<div class="aui-group-item b-line">
+<div class="aui-flex">
+<div class="aui-info-user">
+<img class="uclg" src="/image/美团.png"></img></div>
+<div class="aui-flex-box">
+<h3 >美团红包</h3><span>
+<em>9元红包天天送</em>
+</span></div>
+<div class="aui-get-button">
+<a target="_blank" href="http://dpurl.cn/lc6HtE" > <button type="button" class="el-button base-button el-button--text primary" style="color:#4fc939;" data-v-0b43de5e="">
+<span>领取</span> </button> </a> 
+</div></div> </div> 
+
+<div class="aui-group-item b-line">
+<div class="aui-flex">
+<div class="aui-info-user">
+<img class="uclg" src="/image/饿了么.png"></img></div>
+<div class="aui-flex-box">
+<h3 >饿了么红包</h3><span>
+<em>请你吃大餐<br/>最高领15元外卖红包</em>
+</span></div>
+<div class="aui-get-button">
+<a target="_blank" href="https://h5.ele.me/fire/water/?refer_id=698536178&refer_code=2d4bdcd2934590d18d2bb27c0144d74b&refer_channel_code=1&refer_channel_type=3" > <button type="button" class="el-button base-button el-button--text primary" style="color:#4fc939;" data-v-0b43de5e="">
+<span>购买</span> </button> </a> 
+</div></div> </div> 
+
+
+<div class="aui-group-item b-line">
+<div class="aui-flex">
+<div class="aui-info-user">
+<img class="uclg" src="/image/qqgqs.jpg"></img></div>
+<div class="aui-flex-box">
+<h3 >全球购骑士卡</h3><span>
+<em>重磅福利来啦！车主加油9折起<br/>京东/严选/考拉购物5折起<br/>热门视频会员充值6折起<br/>星巴克/肯德基/麦当劳优惠6折起</em>
+</span></div>
+<div class="aui-get-button">
+<a target="_blank" href="https://w.url.cn/s/AgYXQIs" > <button type="button" class="el-button base-button el-button--text primary" style="color:#4fc939;" data-v-0b43de5e="">
+<span>下载</span> </button> </a> 
+</div></div> </div> 
+  
+
+
+
+
+
+</div>
+          
+          <!--2-->
+<div class="tab-panel-item">
+<div class="aui-group-item b-line">
+<div class="aui-flex">
+<div class="aui-info-user">
+<img class="uclg" src="/image/udid.png"></img></div>
+<div class="aui-flex-box">
+<h3 >UDID定制</h3>
+<span><em>告别掉签名，帮你解决烦恼</em><br/>
+  <em>稳定使用/省心省事/越狱必备</em></span>
+</div>
+<div class="aui-get-button">
+
+<a target="_blank" href="https://udid.zxzco.com"> <button type="button" class="el-button base-button el-button--text primary" style="color:#4fc939;" data-v-0b43de5e="">
+<span>定制</span> </button> </a>
+<a target="_blank" href="https://udid.zxzco.com/query.php"> <button type="button" class="el-button base-button el-button--text primary" style="color:#4fc939;" data-v-0b43de5e="">
+<span>查询</span> </button> </a>
+</div></div> </div> 
+
+<div class="aui-group-item b-line">
+<div class="aui-flex">
+<div class="aui-info-user">
+<img class="uclg" src="/image/CheckRa1n.png"></img></div>
+<div class="aui-flex-box">
+<h3 >CheckRa1n</h3>
+<span><em>支持12.3-13.3.1</em><br/>
+  <em>需要在Mac电脑使用</em></span>
+</div>
+<div class="aui-get-button">
+<a target="_blank" href="https://www.lanzous.com/b0c7zhwnc"> <button type="button" class="el-button base-button el-button--text primary" style="color:#4fc939;" data-v-0b43de5e="">
+<span>下载</span> </button> </a>
+</div></div> </div> 
+
+<div class="aui-group-item b-line">
+<div class="aui-flex">
+<div class="aui-info-user">
+<img class="uclg" src="/image/高速下载通道.png"></img></div>
+<div class="aui-flex-box">
+<h3 >高速下载通道</h3>
+<span><em>适合工作室下载</em><br/>
+  <em>方便快捷，速度保证</em></span>
+</div>
+<div class="aui-get-button">
+<a target="_blank" href="https://www.lanzous.com/b0c84smrc"> <button type="button" class="el-button base-button el-button--text primary" style="color:#4fc939;" data-v-0b43de5e="">
+<span>下载</span> </button> </a>
+</div></div> </div> 
+
+
+<div class="aui-group-item b-line">
+<div class="aui-flex">
+<div class="aui-info-user">
+<img class="uclg" src="/image/unc0ver.png"></img></div>
+<div class="aui-flex-box">
+<h3 >Unc0ver4.3.1</h3>
+<span>
+<em>ios11.0~13.3</em><br/>
+<em>ios13.0~13.3（支持A8~A13）</em><br/>
+<em>ios12.4.1（只支持A12）</em><br/>
+<em>ios11.0~12.4（支持A7-A12）</em>
+ </span>
+</div>
+<div class="aui-get-button">
+<a  href="itms-services://?action=download-manifest&amp;url=https://app.zxzco.com/plist/unc0ver/unc0ver4.3.1.plist" onclick="return confirm('文件较大，下载时间长，需耐心等待')"> <button type="button" class="el-button base-button el-button--text primary" style="color:#4fc939;" data-v-0b43de5e="">
+<span>安装</span> </button> </a> 
+<a target="_blank" href="/unc0ver.html"> <button type="button" class="el-button base-button el-button--text primary" style="color:#4fc939;" data-v-0b43de5e="">
+<span>专区</span> </button> </a>
+</div></div> </div> 
+
+<div class="aui-group-item b-line">
+<div class="aui-flex">
+<div class="aui-info-user">
+<img class="uclg" src="/image/Chimera.png"></img></div>
+<div class="aui-flex-box">
+<h3 >Chimera1.3.9</h3><span>
+<em>支持12.0-12.1.2（支持A12）</em>
+<em>支持12.1.3-12.4（A12无商店）</em>
+</span></div>
+<div class="aui-get-button">
+<a  href="itms-services://?action=download-manifest&amp;url=https://app.zxzco.com/plist/Chimera/Chimera1.3.9.plist" onclick="return confirm('文件较大，下载时间长，需耐心等待')"> <button type="button" class="el-button base-button el-button--text primary" style="color:#4fc939;" data-v-0b43de5e="">
+<span>安装</span> </button> </a>
+<a target="_blank" href="/chimera.html"> <button type="button" class="el-button base-button el-button--text primary" style="color:#4fc939;" data-v-0b43de5e="">
+<span>专区</span> </button> </a>
+</div></div> </div>  
+
+<div class="aui-group-item b-line">
+<div class="aui-flex">
+<div class="aui-info-user">
+<img class="uclg" src="/image/Electra.png"></img></div>
+<div class="aui-flex-box">
+<h3 >Electra</h3><span>
+<em>支持ios11.0-11.4.1</em>
+</span></div>
+<div class="aui-get-button">
+           <a  href="itms-services://?action=download-manifest&amp;url=https://app.zxzco.com/plist/qtyy/Electra.plist" onclick="return confirm('文件较大，下载时间长，需耐心等待')"> <button type="button" class="el-button base-button el-button--text primary" style="color:#4fc939;" data-v-0b43de5e="">
+           <span>安装</span> </button> </a> 
+</div></div> </div>  
+
+<div class="aui-group-item b-line">
+<div class="aui-flex">
+<div class="aui-info-user">
+<img class="uclg" src="/image/Th0r.png"></img></div>
+<div class="aui-flex-box">
+<h3 >Th0r雷神</h3><span>
+<em>支持ios11.0-11.4.1</em>
+</span></div>
+<div class="aui-get-button">
+           <a  href="itms-services://?action=download-manifest&amp;url=https://app.zxzco.com/plist/qtyy/Th0r.plist" onclick="return confirm('文件较大，下载时间长，需耐心等待')"> <button type="button" class="el-button base-button el-button--text primary" style="color:#4fc939;" data-v-0b43de5e="">
+           <span>安装</span> </button> </a> 
+</div></div> </div>  
+
+
+
+<div class="aui-group-item b-line">
+<div class="aui-flex">
+<div class="aui-info-user">
+<img class="uclg" src="/image/doubleH3lix.png"></img></div>
+<div class="aui-flex-box">
+<h3 >DoubleH3lix</h3><span>
+<em>支持IOS10.X全系列越狱</em>
+</span></div>
+<div class="aui-get-button">
+           <a  href="itms-services://?action=download-manifest&amp;url=https://app.zxzco.com/plist/qtyy/doubleH3lix.plist" onclick="return confirm('文件较大，下载时间长，需耐心等待')"> <button type="button" class="el-button base-button el-button--text primary" style="color:#4fc939;" data-v-0b43de5e="">
+           <span>安装</span> </button> </a> 
+</div></div> </div>  
+
+<div class="aui-group-item b-line">
+<div class="aui-flex">
+<div class="aui-info-user">
+<img class="uclg" src="/image/h3lix.png"></img></div>
+<div class="aui-flex-box">
+<h3 >h3lix</h3><span>
+<em>支持IOS10.X 32位系统</em>
+</span></div>
+<div class="aui-get-button">
+           <a  href="itms-services://?action=download-manifest&amp;url=https://app.zxzco.com/plist/qtyy/h3lix.plist" onclick="return confirm('文件较大，下载时间长，需耐心等待')"> <button type="button" class="el-button base-button el-button--text primary" style="color:#4fc939;" data-v-0b43de5e="">
+           <span>安装</span> </button> </a> 
+</div></div> </div>  
+
+<div class="aui-group-item b-line">
+<div class="aui-flex">
+<div class="aui-info-user">
+<img class="uclg" src="/image/Meridian.png"></img></div>
+<div class="aui-flex-box">
+<h3 >Meridian</h3><span>
+<em>支持IOS10.X全系列越狱</em>
+</span></div>
+<div class="aui-get-button">
+           <a  href="itms-services://?action=download-manifest&amp;url=https://app.zxzco.com/plist/qtyy/Meridian.plist" onclick="return confirm('文件较大，下载时间长，需耐心等待')"> <button type="button" class="el-button base-button el-button--text primary" style="color:#4fc939;" data-v-0b43de5e="">
+           <span>安装</span> </button> </a> 
+</div></div> </div> 
+
+
+<div class="aui-group-item b-line">
+<div class="aui-flex">
+<div class="aui-info-user">
+<img class="uclg" src="/image/yalu102.png"></img></div>
+<div class="aui-flex-box">
+<h3 >yalu102</h3><span>
+<em>支持ios10.1-10.2</em>
+</span></div>
+<div class="aui-get-button">
+           <a  href="itms-services://?action=download-manifest&amp;url=https://app.zxzco.com/plist/qtyy/yalu102.plist" onclick="return confirm('文件较大，下载时间长，需耐心等待')"> <button type="button" class="el-button base-button el-button--text primary" style="color:#4fc939;" data-v-0b43de5e="">
+           <span>安装</span> </button> </a> 
+</div></div> </div>  
+
+
+<div class="aui-group-item b-line">
+<div class="aui-flex">
+<div class="aui-info-user">
+<img class="uclg" src="/image/pangu.png"></img></div>
+<div class="aui-flex-box">
+<h3 >盘古</h3><span>
+<em>支持9.2-9.33</em>
+</span></div>
+<div class="aui-get-button">
+           <a  href="itms-services://?action=download-manifest&amp;url=https://app.zxzco.com/plist/qtyy/pangu.plist" onclick="return confirm('文件较大，下载时间长，需耐心等待')"> <button type="button" class="el-button base-button el-button--text primary" style="color:#4fc939;" data-v-0b43de5e="">
+           <span>安装</span> </button> </a> 
+           <a target="_blank" href="http://jb92.i4.cn/"> <button type="button" class="el-button base-button el-button--text primary" style="color:#4fc939;" data-v-0b43de5e="">
+<span>激活</span> </button> </a>
+</div></div> </div> 
+
+<div class="aui-group-item b-line">
+<div class="aui-flex">
+<div class="aui-info-user">
+<img class="uclg" src="/image/Filza.png"></img></div>
+<div class="aui-flex-box">
+<h3 >FilzaEscaped12</h3><span>
+<em>12.4系统，支持A12</em>
+</span></div>
+<div class="aui-get-button">
+           <a  href="itms-services://?action=download-manifest&amp;url=https://app.zxzco.com/plist/qtyy/Filza.plist" onclick="return confirm('文件较大，下载时间长，需耐心等待')"> <button type="button" class="el-button base-button el-button--text primary" style="color:#4fc939;" data-v-0b43de5e="">
+           <span>安装</span> </button> </a> 
+</div></div> </div>  
+
+<div class="aui-group-item b-line">
+<div class="aui-flex">
+<div class="aui-info-user">
+<img class="uclg" src="/image/Filza.png"></img></div>
+<div class="aui-flex-box">
+<h3 >FilzaEscaped13</h3><span>
+<em>13.3系统，支持A12/A13</em>
+</span></div>
+<div class="aui-get-button">
+           <a  href="itms-services://?action=download-manifest&amp;url=https://app.zxzco.com/plist/qtyy/Filza13.plist" onclick="return confirm('文件较大，下载时间长，需耐心等待')"> <button type="button" class="el-button base-button el-button--text primary" style="color:#4fc939;" data-v-0b43de5e="">
+           <span>安装</span> </button> </a> 
+</div></div> </div>  
+
+<div class="aui-group-item b-line">
+<div class="aui-flex">
+<div class="aui-info-user">
+<img class="uclg" src="/image/乐网.png"></img></div>
+<div class="aui-flex-box">
+<h3 >乐网</h3><span>
+<em>解决cydia或者sileo无法联网问题</em>
+</span></div>
+<div class="aui-get-button">
+<a target="_blank" href="http://app.zxzco.com/lzy.php?url=https://www.lanzous.com/i9sm4ve&type=down" > <button type="button" class="el-button base-button el-button--text primary" style="color:#4fc939;" data-v-0b43de5e="">
+<span>安装</span> </button> </a> 
+</div></div> </div>
+
+
+           
+</div>
+          
+          
+          <!--3-->
+<div class="tab-panel-item">                 
+
+<div class="aui-group-item b-line">
+<div class="aui-flex">
+<div class="aui-info-user">
+<img class="uclg" src="/image/ipa.png"></img></div>
+<div class="aui-flex-box">
+<h3 >福利软件集合</h3><span>
+<em>
+<!--<h3 >访问密码：<span style="color:#E53333;">iwba</span></h3>-->
+由于证书暂时未稳定<br/>
+临时采用集合版模式提供下载
+</em>
+</span></div>
+<div class="aui-get-button">
+<!--<a target="_blank" href="https://www.lanzous.com/b0c7wnx8b" > <button type="button" class="el-button base-button el-button--text primary" style="color:#4fc939;" data-v-0b43de5e="">-->
+<a target="_blank" href="https://www.lanzous.com/b0c7zu0te" > <button type="button" class="el-button base-button el-button--text primary" style="color:#4fc939;" data-v-0b43de5e="">
+<span>下载</span> </button> </a> 
+</div></div> </div>
+
+
+             
+</div>
+
+
+          <!-- 4 -->
+<div class="tab-panel-item">  
+<center> <span class="source-name">账号禁止登录 iCloud<br/>仅限登录 App Store 验证应用</span> </center>
+
+<!--微信-->
+<div class="aui-group-item b-line">
+<div class="aui-flex">
+<div class="aui-info-user">
+<img class="uclg" src="/image/微信.png"></img></div>
+<div class="aui-flex-box">
+<h3 >微信6.6.1</h3><span>
+<em>支持callkit的官方版本<br/>关注微信公众号：<span style="color:#E53333;">puyu52</span><br/>回复“<span style="color:#E53333;">旧版</span>”获取账号密码</em>
+</span></div>
+<div class="aui-get-button">
+<a  href="itms-services://?action=download-manifest&amp;url=https://app.zxzco.com/plist/gbapp/wx661.plist" onclick="return confirm('文件较大，下载时间长，需耐心等待')"> <button type="button" class="el-button base-button el-button--text primary" style="color:#4fc939;" data-v-0b43de5e="">
+<span>安装</span> </button> </a> 
+</div></div> </div>     
+   
+<div class="aui-group-item b-line">
+<div class="aui-flex">
+<div class="aui-info-user">
+<img class="uclg" src="/image/微信.png"></img></div>
+<div class="aui-flex-box">
+<h3 >微信6.6.7</h3><span>
+<em>订阅号改版前的最后官方版本<br/>关注微信公众号：<span style="color:#E53333;">puyu52</span><br/>回复“<span style="color:#E53333;">旧版</span>”获取账号密码</em>
+</span></div>
+<div class="aui-get-button">
+<a  href="itms-services://?action=download-manifest&amp;url=https://app.zxzco.com/plist/gbapp/wx667.plist" onclick="return confirm('文件较大，下载时间长，需耐心等待')"> <button type="button" class="el-button base-button el-button--text primary" style="color:#4fc939;" data-v-0b43de5e="">
+<span>安装</span> </button> </a> 
+</div></div> </div>     
+
+<div class="aui-group-item b-line">
+<div class="aui-flex">
+<div class="aui-info-user">
+<img class="uclg" src="/image/微信.png"></img></div>
+<div class="aui-flex-box">
+<h3 >微信6.7.4</h3><span>
+<em>微信改版前的最后一版<br/>关注微信公众号：<span style="color:#E53333;">puyu52</span><br/>回复“<span style="color:#E53333;">旧版</span>”获取账号密码</em>
+</span></div>
+<div class="aui-get-button">
+<a  href="itms-services://?action=download-manifest&amp;url=https://app.zxzco.com/plist/gbapp/wx674.plist" onclick="return confirm('文件较大，下载时间长，需耐心等待')"> <button type="button" class="el-button base-button el-button--text primary" style="color:#4fc939;" data-v-0b43de5e="">
+<span>安装</span> </button> </a> 
+</div></div> </div>   
+
+<!--QQ-->
+<div class="aui-group-item b-line">
+<div class="aui-flex">
+<div class="aui-info-user">
+<img class="uclg" src="/image/QQ.png"></img></div>
+<div class="aui-flex-box">
+<h3 >QQ 6.6.8</h3><span>
+<em>支持美化的版本<br/>关注微信公众号：<span style="color:#E53333;">puyu52</span><br/>回复“<span style="color:#E53333;">旧版</span>”获取账号密码</em>
+</span></div>
+<div class="aui-get-button">
+<a  href="itms-services://?action=download-manifest&amp;url=https://app.zxzco.com/plist/gbapp/qq668.plist" onclick="return confirm('文件较大，下载时间长，需耐心等待')"> <button type="button" class="el-button base-button el-button--text primary" style="color:#4fc939;" data-v-0b43de5e="">
+<span>安装</span> </button> </a> 
+</div></div> </div> 
+
+<div class="aui-group-item b-line">
+<div class="aui-flex">
+<div class="aui-info-user">
+<img class="uclg" src="/image/QQ.png"></img></div>
+<div class="aui-flex-box">
+<h3 >QQ 7.9.8</h3><span>
+<em>改版前的最后版本<br/>关注微信公众号：<span style="color:#E53333;">puyu52</span><br/>回复“<span style="color:#E53333;">旧版</span>”获取账号密码</em>
+</span></div>
+<div class="aui-get-button">
+<a  href="itms-services://?action=download-manifest&amp;url=https://app.zxzco.com/plist/gbapp/qq798.plist" onclick="return confirm('文件较大，下载时间长，需耐心等待')"> <button type="button" class="el-button base-button el-button--text primary" style="color:#4fc939;" data-v-0b43de5e="">
+<span>安装</span> </button> </a> 
+</div></div> </div> 
+
+<!--爱阅书香-->
+<div class="aui-group-item b-line">
+<div class="aui-flex">
+<div class="aui-info-user">
+<img class="uclg" src="/image/爱阅书香.png"></img></div>
+<div class="aui-flex-box">
+<h3 >爱阅书香 5.8.0</h3><span>
+<em>无广告，自带源地址<br/>关注微信公众号：<span style="color:#E53333;">puyu52</span><br/>回复“<span style="color:#E53333;">旧版</span>”获取账号密码</em>
+</span></div>
+<div class="aui-get-button">
+<a  href="itms-services://?action=download-manifest&amp;url=https://app.zxzco.com/plist/gbapp/aysx.plist" onclick="return confirm('文件较大，下载时间长，需耐心等待')"> <button type="button" class="el-button base-button el-button--text primary" style="color:#4fc939;" data-v-0b43de5e="">
+<span>安装</span> </button> </a> 
+</div></div> </div> 
+
+<!--钉钉-->
+<div class="aui-group-item b-line">
+<div class="aui-flex">
+<div class="aui-info-user">
+<img class="uclg" src="/image/钉钉.png"></img></div>
+<div class="aui-flex-box">
+<h3 >钉钉 4.3.5</h3><span>
+<em>存在callkit版本<br/>关注微信公众号：<span style="color:#E53333;">puyu52</span><br/>回复“<span style="color:#E53333;">旧版</span>”获取账号密码</em>
+</span></div>
+<div class="aui-get-button">
+<a  href="itms-services://?action=download-manifest&amp;url=https://app.zxzco.com/plist/gbapp/dd435.plist" onclick="return confirm('文件较大，下载时间长，需耐心等待')"> <button type="button" class="el-button base-button el-button--text primary" style="color:#4fc939;" data-v-0b43de5e="">
+<span>安装</span> </button> </a> 
+</div></div> </div> 
+
+<!--QQ音乐-->
+<div class="aui-group-item b-line">
+<div class="aui-flex">
+<div class="aui-info-user">
+<img class="uclg" src="/image/QQ音乐.png"></img></div>
+<div class="aui-flex-box">
+<h3 >QQ音乐 6.3.1</h3><span>
+<em>免费使用DTS音效<br/>关注微信公众号：<span style="color:#E53333;">puyu52</span><br/>回复“<span style="color:#E53333;">旧版</span>”获取账号密码</em>
+</span></div>
+<div class="aui-get-button">
+<a  href="itms-services://?action=download-manifest&amp;url=https://app.zxzco.com/plist/gbapp/qqyy631.plist" onclick="return confirm('文件较大，下载时间长，需耐心等待')"> <button type="button" class="el-button base-button el-button--text primary" style="color:#4fc939;" data-v-0b43de5e="">
+<span>安装</span> </button> </a> 
+</div></div> </div> 
+
+<!--UC浏览器-->
+<div class="aui-group-item b-line">
+<div class="aui-flex">
+<div class="aui-info-user">
+<img class="uclg" src="/image/UC浏览器.png"></img></div>
+<div class="aui-flex-box">
+<h3 >UC浏览器 10.5.5</h3><span>
+<em>可以缓存视频并支持导出第三方打开<br/>关注微信公众号：<span style="color:#E53333;">puyu52</span><br/>回复“<span style="color:#E53333;">旧版</span>”获取账号密码</em>
+</span></div>
+<div class="aui-get-button">
+<a  href="itms-services://?action=download-manifest&amp;url=https://app.zxzco.com/plist/gbapp/ucllq1055.plist" onclick="return confirm('文件较大，下载时间长，需耐心等待')"> <button type="button" class="el-button base-button el-button--text primary" style="color:#4fc939;" data-v-0b43de5e="">
+<span>安装</span> </button> </a> 
+</div></div> </div> 
+
+<!--Telegram-->
+<div class="aui-group-item b-line">
+<div class="aui-flex">
+<div class="aui-info-user">
+<img class="uclg" src="/image/Telegram.png"></img></div>
+<div class="aui-flex-box">
+<h3 >Telegram 4.9.1</h3><span>
+<em>支持完美汉化的版本<br/>关注微信公众号：<span style="color:#E53333;">puyu52</span><br/>回复“<span style="color:#E53333;">旧版</span>”获取账号密码</em>
+</span></div>
+<div class="aui-get-button">
+<a  href="itms-services://?action=download-manifest&amp;url=https://app.zxzco.com/plist/gbapp/Telegram491.plist" onclick="return confirm('文件较大，下载时间长，需耐心等待')"> <button type="button" class="el-button base-button el-button--text primary" style="color:#4fc939;" data-v-0b43de5e="">
+<span>安装</span> </button> </a> 
+</div></div> </div> 
+
+<!--Telegram-->
+<div class="aui-group-item b-line">
+<div class="aui-flex">
+<div class="aui-info-user">
+<img class="uclg" src="/image/无忧行.png"></img></div>
+<div class="aui-flex-box">
+<h3 >无忧行 3.8.2</h3><span>
+<em>存在callkit版本<br/>关注微信公众号：<span style="color:#E53333;">puyu52</span><br/>回复“<span style="color:#E53333;">旧版</span>”获取账号密码</em>
+</span></div>
+<div class="aui-get-button">
+<a  href="itms-services://?action=download-manifest&amp;url=https://app.zxzco.com/plist/gbapp/wyx382.plist" onclick="return confirm('文件较大，下载时间长，需耐心等待')"> <button type="button" class="el-button base-button el-button--text primary" style="color:#4fc939;" data-v-0b43de5e="">
+<span>安装</span> </button> </a> 
+</div></div> </div> </div>  
+
+
+
+ </div> </div>                      
+          
+
+<!--footer-->
+
+        <footer>
+    <br>           
+ 
+       <center> <span class="source-name">Copyright © 2020 DEB推送源™<br/>本站所以资源均来自互联网收集<br/>如有侵权请联系删除，谢谢合作</span>
+
+  <br><script type="text/javascript">document.write(unescape("%3Cspan id='cnzz_stat_icon_1278672937'%3E%3C/span%3E%3Cscript src='https://s9.cnzz.com/z_stat.php%3Fid%3D1278672937%26online%3D2' type='text/javascript'%3E%3C/script%3E"));</script></script>        
+          
+          </center>
+        </footer>
+
+        
+    </section>
+<style>
+.margingT {
+margin-bottom: 60px;
+}
+
+.bottomAD {
+-webkit-box-sizing: border-box;
+height: 60px;
+position: fixed;
+bottom: 0;
+left: 0;
+z-index: 800;
+padding: 0 10px;
+overflow: hidden;
+width: 100%;
+background: rgba(0, 0, 0, .8);
+}
+
+.bottom-pic {
+position: absolute;
+top: 10px;
+width: 40px;
+height: 40px;
+overflow: hidden;
+-webkit-border-radius: 10px;
+border-radius: 10px;
+}
+
+.bottom-pic img {
+width: 100%;
+height: 100%;
+}
+
+.bottom-text {
+margin-left: 70px;
+line-height: 60px;
+font-size: 16px;
+color: #fff;
+}
+
+.bottom-btn {
+position: absolute;
+top: 12px;
+right: 10px;
+height: 35px;
+line-height: 35px;
+color: #fff;
+background-color: #60b900;
+border-radius: 6px;
+text-align: center;
+font-size: 16px;
+padding: 0 5px;
+font-weight: bold;
+}
+
+.bottomAD a {
+position: absolute;
+top: 0;
+right: 0;
+bottom: 0;
+left: 0;
+}
+
+</style>
+  
+
+<div class="bottomAD" id="bottomAD">
+<div class="bottom-con">
+<div class="bottom-pic">
+<img src="http://app.iwba.cn/image/iwba.png" width="60" height="60" alt="">
+</div>
+<div class="bottom-text" id="bottomText">微信公众号：DEB推送源</div>
+<div class="bottom-btn">立即关注</div>
+</div>
+<a id="bottomLink" class="textCopy" style="cursor:pointer;" ></a>
+</div>
+ <script src="layer/jquery.min.js"></script>
+  
+    <script src="layer/clipboard.min.js"></script>
+	 <script src="layer/layer.js"></script>
+        <script type="text/javascript">
+
+
+            var clipboard = new ClipboardJS('.textCopy', {
+			
+                text: function() {
+                    return 'DEB推送源';
+                }
+            });
+
+            clipboard.on('success', function(e) {
+                console.log(e);
+                
+		layer.confirm('复制公众号成功，点击确定自动跳转到微信', {
+  btn: ['确定','取消'] //按钮
+}, function(){
+  window.location.href="weixin://";
+}, function(){
+  layer.closeAll();
+});
+
+				
+				
+             
+            });
+
+            clipboard.on('error', function(e) {
+                console.log(e);
+                
+		layer.confirm('复制公众号失败，请手动输入【DEB推送源】', {
+  btn: ['确定','取消'] //按钮
+}, function(){
+  window.location.href="weixin://";
+}, function(){
+  layer.closeAll();
+});                
+                
+                
+            });
+        </script>
+<link href="css/sweetalert.min.css" rel="stylesheet">
+<script src="js/sweetalert.min.js"></script>
+<script type="text/javascript">
+  swal("证书已恢复" ,"急用请前往UDID定制","success")
+</script> 
+
+
+</body>
+<script>
+(function(){
+    var bp = document.createElement('script');
+    var curProtocol = window.location.protocol.split(':')[0];
+    if (curProtocol === 'https') {
+        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+    }
+    else {
+        bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+    }
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(bp, s);
+})();
+</script>  
+  <script>
+ 		function is_weixin() {
+		    var ua = navigator.userAgent.toLowerCase();
+		    if (ua.match(/MicroMessenger/i) == "micromessenger" || ua.match(/QQ/i) == "qq" || ua.match(/WeiBo/i) == "weibo" || ua.match(/NebulaSDK/i) == "nebulasdk") {
+		        return true;
+		    } else {
+		        return false;
+		    }
+		}
+		var isWeixin = is_weixin();
+		var winHeight = typeof window.innerHeight != 'undefined' ? window.innerHeight : document.documentElement.clientHeight;
+		function loadHtml(){
+			var div = document.createElement('div');
+			div.id = 'weixin-tip';
+			div.innerHTML = '<p> <img src="/image/weixin.png" width="95%"> </p>';
+			document.body.appendChild(div);
+		}
+		
+		function loadStyleText(cssText) {
+	        var style = document.createElement('style');
+	        style.rel = 'stylesheet';
+	        style.type = 'text/css';
+	        try {
+	            style.appendChild(document.createTextNode(cssText));
+	        } catch (e) {
+	            style.styleSheet.cssText = cssText; //ie9以下
+	        }
+            var head=document.getElementsByTagName("head")[0]; //head标签之间加上style样式
+            head.appendChild(style); 
+	    }
+	    var cssText = "#weixin-tip{position: fixed; left:0; top:0; background: rgba(0,0,0,0.8); filter:alpha(opacity=80); width: 100%; height:100%; z-index: 100;} #weixin-tip p{text-align: center; margin-top: 10%; padding:0 5%;}";
+		if(isWeixin){
+			loadHtml();
+			loadStyleText(cssText);
+		}
+</script> 
+<script type="text/javascript" src="/js/jquery.min.js"></script>
+<script type="text/javascript" src="/js/slider.js"></script>
+<script type="text/javascript" src="/js/tab.js"></script>
+<body>
+</html>
