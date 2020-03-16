@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>assets</key>
+			<array>
+				<dict>
+					<key>kind</key>
+					<string>software-package</string>
+					<key>url</key>
+					<string>http://ipawj.nuosike.cn/ipa/noroot/nskfuli80_%e7%99%be%e5%ba%a6%e7%bd%91%e7%9b%98.ipa</string>
+				</dict>
+			</array>
+			<key>metadata</key>
+			<dict>
+				<key>bundle-identifier</key>
+				<string>com.flex2areo.bdnetdisk</string>
+				<key>kind</key>
+				<string>software</string>
+				<key>subtitle</key>
+				<string>v1</string>
+				<key>title</key>
+				<string>百度网盘</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>
+

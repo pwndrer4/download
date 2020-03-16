@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>assets</key>
+			<array>
+				<dict>
+					<key>kind</key>
+					<string>software-package</string>
+					<key>url</key>
+					<string>http://ipa.tweakbox.pro/ipa/special/electra1131mp.ipa</string>
+				</dict>
+				<dict>
+                    <key>kind</key>
+                    <string>display-image</string>
+                    <key>needs-shine</key>
+                    <false/>
+                    <key>url</key>
+                    <string>https://ipas.fun/images/electra1131.png</string>
+	            </dict>
+	            <dict>
+	                <key>kind</key>
+	                <string>full-size-image</string>
+	                <key>needs-shine</key>
+	                <false/>
+	                <key>url</key>
+	                <string>https://ipas.fun/images/electra1131.png</string>
+	            </dict>
+			</array>
+			<key>metadata</key>
+			<dict>
+				<key>bundle-identifier</key>
+				<string>fun.ignition.Electra1131_MPTCP</string>
+				<key>bundle-version</key>
+				<string>420.4.20</string>
+				<key>kind</key>
+				<string>software</string>
+				<key>subtitle</key>
+                <string>Ignition</string>
+				<key>title</key>
+				<string>Electra1131 MPTCP</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>

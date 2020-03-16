@@ -1,0 +1,38 @@
+@charset "utf-8";
+/*safari打开提示*/
+.click_opacity{ width:100%; height:100%; background:#000; opacity:0.6; position:fixed; z-index:10000; top:0px;}
+.to_btn{ position:fixed; top:10px; right:10px; text-align:right; z-index:10001; font-family:"微软雅黑";}
+.to_btn span{ display:block;}
+.to_btn img{ width:20%; height:auto; display:inline-block;}
+.to_btn .span1{ font-size:1.6rem; color:#fff; margin-top:5px;}
+.to_btn{ color:#fff;}
+.to_btn .span2{ display:inline-block; line-height:36px; width:80%; margin-bottom:12px; text-align:left; font-size:16px;}
+.to_btn .span2 em{ display:inline-block; width:16px; height:16px; background:#009dd9; color:#fff; font-size:12px; text-align:center; line-height:16px; border:1px solid #fff; border-radius:50%; margin-right:3px;}
+.to_btn .span2 img{ display:inline-block; width:30px; height:30px; margin:0px 5px;}
+.to_btn span{ display:block; float:right;}
+/*ios9提示样式*/
+.ios9_tips{ width:100%; background:rgba(0,0,0,0.7); padding:30px 0px; height:auto;}
+.ios9_tips p{ font-size:14px; font-weight:200; color:#fff; width:100%; text-align:center; line-height:28px;}
+.ios9_tips img{ display:block;width:12px;height:12px;}
+.ios9_tips .img1{ width:80%; height:auto; margin:20px 10% 0px;}
+.ios9_tips .btn{ width:40%; height:auto; margin:20px 30% 0px;font-size: 13px;font-weight: 500;border: 0px solid #fff!important;}
+.ios9_tips .p3{font-size:16px; margin:50px 0px 30px 0px;}
+.ios9_tips .img2{ width:120px; height:120px; margin:10px auto;}
+.ios9_tips .img3{ width:80%; height:auto; margin:20px 10% 0px;}
+.ios9_tips .img4{ width:60%; height:auto; margin:20px 20% 0px;}
+.go_desk{ margin-top:30px;}
+.close_ios9{margin-right: 25px;position: absolute;top: 50px; right: 0px;}
+.close_ios92{margin-right: 40px;position: absolute;top:43px; right: 0px;}
+.ios9_tips_content{ padding-top:10px;}
+
+.logo0622{ width:120px; height:130px; margin: 40px auto 0px;text-align: center;}
+.logo0622 img{border-radius:22.5%;width:120px; height:120px; display:inline-block;}
+.cy_app_name{ color:#000; margin-bottom:10px;text-align: center;}
+.phone_show { margin-top:2rem;}
+.phone_show p{ width:100%; text-align:center; line-height:1rem;color: #000;font-family: "Open Sans","Helvetica Neue",Helvetica,"Microsoft YaHei",sans-serif;font-size: 16px;font-weight: 300;letter-spacing: 1.2px;}
+.load_fixed{ margin:2rem auto;}
+.load_fixed a{color: #2c9fb7;cursor: pointer; font-size: 16px; display:block; width:100%;}
+@media screen and (max-width:768px){.load_fixed a{ width:50%; margin-left:25%;}}
+.load_fixed{ position:relative;}
+.fixing .fa-circle-o-notch{ color:#fff; font-weight:100; width:100%; text-align:center; position:absolute; top:0px;}
+.load_fixed .home_key{ position:absolute; top:0px; font-size:14px;}

@@ -1,0 +1,14 @@
+
+*{border:0;-webkit-border-radius:0;-moz-border-radius:0;-ms-border-radius:0;-o-border-radius:0;border-radius:0;color:inherit;font-family:inherit;font-size:inherit;font-style:inherit;font-weight:inherit;margin:0;outline:0;padding:0;text-decoration:none;vertical-align:baseline}
+.alipay{height: auto;max-height: 20px;vertical-align: text-bottom;}
+.box{margin:9px;background:#fff;border:1px solid #999;font-size:0em;-webkit-border-radius: 5px;position:relative;z-index:1;}
+.bigpic{-webkit-border-radius:4px;width:100%;height:100%;}
+panel>div>ul>li{position:absolute;z-index:1;}
+.box1{margin:9px;-webkit-border-radius: 5px;}
+.doubleCol{-webkit-column-gap:0;-moz-column-gap:0;column-gap:0;-webkit-column-count:2;-moz-column-count:2;column-count:2;margin-top:0}
+.borderRight{border-right:0.5px solid #C8C7CC;vertical-align:middle;}
+fieldset>ul>li>a>div>img.icon{height:auto;max-height:30px;width:30px;min-width:30px;vertical-align:middle;line-height:1.29412}
+fieldset>ul>li>a,fieldset>ul>li>div,fieldset>ul>li>textarea{display:block;position:relative}
+.cytyle-flat fieldset>ul>li>{padding:10px 15px 10px 0}
+.test1 *{display:inline-block;vertical-align:middle}
+.cytyle-flat fieldset>a[href]>div,fieldset>ul>li>a{padding-right:15px}

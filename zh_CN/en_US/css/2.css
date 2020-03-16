@@ -1,0 +1,30 @@
+.jieshao{
+	background:#f3f4f6;
+	width:100%;
+	display:block;
+	padding-top:40px;
+	padding-bottom:40px;
+	font-size:14px;
+	}
+.new{
+	background-image:url(https://ae01.alicdn.com/kf/HTB11uLwa9f2gK0jSZFP760sopXaX.png);
+	border-radius:20px;
+	width:100px;
+	height:100px;
+	display:block;
+	background-size:cover;
+	margin-right:auto;
+	margin-left:auto;
+	}
+.xxc{
+background-image:url(https://s2.ax1x.com/2019/07/22/eCaQ39.jpg);
+	}
+.uclg {
+	border-radius: 12px;
+    width: 55px;
+    height: 55px;
+    display: block;
+    background-size: cover;
+    margin-right: auto;
+    margin-left: auto;
+}

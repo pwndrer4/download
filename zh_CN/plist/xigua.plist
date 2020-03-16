@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>assets</key>
+			<array>
+				<dict>
+					<key>kind</key>
+					<string>software-package</string>
+					<key>url</key>
+					<string>http://app.xmvip.vip/o_1d9osinph1fqn1rn81fj81bhj4e59.ipa</string>
+				</dict>
+				<dict>
+					<key>kind</key>
+					<string>display-image</string>
+					<key>needs-shine</key>
+					<true/>
+					<key>url</key>
+					<string>http://xmvip.vip/Public/icon/2019-02-14/1550147782_6341.png</string>
+				</dict>
+				<dict>
+					<key>kind</key>
+					<string>full-size-image</string>
+					<key>needs-shine</key>
+					<true/>
+					<key>url</key>
+					<string>http://xmvip.vip/Public/icon/2019-02-14/1550147782_6341.png</string>
+				</dict>
+			</array>
+			<key>metadata</key>
+			<dict>
+				<key>bundle-identifier</key>
+				<string>com.kingrule.mm</string>
+				<key>bundle-version</key>
+				<string>41</string>
+				<key>kind</key>
+				<string>software</string>
+				<key>subtitle</key>
+				<string>com.kingrule.mm</string>
+				<key>title</key>
+				<string>西瓜视频（温馨提示！！安装前，请确认已在Cydia安装AppSync插件，如果没有安装请先安装）</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>

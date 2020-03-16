@@ -1,0 +1,246 @@
+body{
+	padding:0px;
+	margin:0px;
+	font-family:Arial;
+	}
+	
+.txt{
+	font-size:50px;
+	color:#fff;
+	font-weight:bold;
+	text-align:center;
+	margin-top:10px;
+	display:block;
+	}
+	
+.all{
+	width:100%;
+	background-image:url("../dl/bg7.png");
+	height:380px;
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size:cover;
+	margin-top:-100px;
+	padding-top:140px;
+	padding-left:0px;
+	display:block;
+	}
+
+.jieshao{
+	background:#f3f4f6;
+	width:100%;
+	display:block;
+	padding-top:40px;
+	padding-bottom:40px;
+	}
+	
+.icon{
+	background-image:url("../dl/pgyy.png");
+	border-radius:20px;
+	width:100px;
+	height:100px;
+	display:block;
+	background-size:cover;
+	margin-right:auto;
+	margin-left:auto;
+	}
+.icons{
+	background-image:url("../dl/doubleH3lix.png");
+	border-radius:20px;
+	width:100px;
+	height:100px;
+	display:block;
+	background-size:cover;
+	margin-right:auto;
+	margin-left:auto;
+	}
+  .icons10{
+	background-image:url("../dl/yalu.png");
+	border-radius:20px;
+	width:100px;
+	height:100px;
+	display:block;
+	background-size:cover;
+	margin-right:auto;
+	margin-left:auto;
+	}
+.iconss{
+	background-image:url("../dl/Electra.png");
+	border-radius:20px;
+	width:100px;
+	height:100px;
+	display:block;
+	background-size:cover;
+	margin-right:auto;
+	margin-left:auto;
+	}
+.electra11{
+	background-image:url("../dl/electra11.png");
+	border-radius:20px;
+	width:100px;
+	height:100px;
+	display:block;
+	background-size:cover;
+	margin-right:auto;
+	margin-left:auto;
+	}
+.iconsss{
+	background-image:url("../dl/Th0r.png");
+	border-radius:20px;
+	width:100px;
+	height:100px;
+	display:block;
+	background-size:cover;
+	margin-right:auto;
+	margin-left:auto;
+	}
+.iconssss{
+	background-image:url("../dl/Remover.png");
+	border-radius:20px;
+	width:100px;
+	height:100px;
+	display:block;
+	background-size:cover;
+	margin-right:auto;
+	margin-left:auto;
+	}
+.Filza{
+	background-image:url("../dl/Filza.png");
+	border-radius:20px;
+	width:100px;
+	height:100px;
+	display:block;
+	background-size:cover;
+	margin-right:auto;
+	margin-left:auto;
+	}
+
+
+.Rollectra{
+	background-image:url("../dl/Rollectra.png");
+	border-radius:20px;
+	width:100px;
+	height:100px;
+	display:block;
+	background-size:cover;
+	margin-right:auto;
+	margin-left:auto;
+	}
+.Meridian{
+	background-image:url("../dl/Meridian.png");
+	border-radius:20px;
+	width:100px;
+	height:100px;
+	display:block;
+	background-size:cover;
+	margin-right:auto;
+	margin-left:auto;
+	}	
+.iconssssss{
+	background-image:url("../dl/unc0ver.png");
+	border-radius:20px;
+	width:100px;
+	height:100px;
+	display:block;
+	background-size:cover;
+	margin-right:auto;
+	margin-left:auto;
+	}
+  .ico2{
+	background-image:url("../dl/xunlei.png");
+	border-radius:20px;
+	width:100px;
+	height:100px;
+	display:block;
+	background-size:cover;
+	margin-right:auto;
+	margin-left:auto;
+	}
+.phoenix{
+	background-image:url("../dl/phoenix.png");
+	border-radius:20px;
+	width:100px;
+	height:100px;
+	display:block;
+	background-size:cover;
+	margin-right:auto;
+	margin-left:auto;
+	}
+.pangu{
+	background-image:url("../dl/pangu.png");
+	border-radius:20px;
+	width:100px;
+	height:100px;
+	display:block;
+	background-size:cover;
+	margin-right:auto;
+	margin-left:auto;
+	}
+.h3lix{
+	background-image:url("../dl/h3lix.png");
+	border-radius:20px;
+	width:100px;
+	height:100px;
+	display:block;
+	background-size:cover;
+	margin-right:auto;
+	margin-left:auto;
+	}
+.name{
+	margin-top:20px;
+	display:block;
+	width:100%;
+	color:#007aff;
+	font-size:36px;
+	text-align:center;
+	}
+	
+.shuoming{
+	margin-top:20px;
+	padding-left:40px;
+	padding-right:40px;
+	display:block;
+	color:#838287;
+	font-size:14px;}
+	
+.btn{
+	background-color:#007aff;
+	color:#fff;
+	width:80px;
+	height:36px;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:20px;
+	text-align:center;
+	line-height:36px;
+	border-radius:30px;
+	text-decoration:none;
+	font-weight:300;
+	}
+	
+.date{
+	color:#838287;
+	text-align:center;
+	width:100%;
+	display:block;
+	font-size:12px;
+	margin-top:7px;
+	}
+	
+.back{
+	background-color:#f3f4f6;
+	color:#007aff;
+	width:120px;
+	height:50px;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:40px;
+	margin-bottom:40px;
+	text-align:center;
+	line-height:50px;
+	border-radius:10px;
+	text-decoration:none;
+	font-weight:bold;
+	}

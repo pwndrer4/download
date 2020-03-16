@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+  <!--来看我源码了？--->
+  <!--源码都给你看了，还好意思不打赏点？--->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Chimera软件</title>
+    <style type="text/css"></style>
+    <link href="./chimera_files/amazeui.min.css" rel="stylesheet">
+    <script src="./chimera_files/jquery.min.js"></script>
+    <script src="./chimera_files/amazeui.min.js"></script>
+    <script src="http://ai.id64.com/jian/xia/Chimera/index.html">/js/amazeui.ie8polyfill.min.js</script>
+    <script src="./chimera_files/amazeui.widgets.helper.min.js"></script>
+	<script src="./chimera_files/layer.js"></script><link href="./chimera_files/layer.css" type="text/css" rel="styleSheet" id="layermcss">
+    <link href="./chimera_files/layer(1).css" rel="stylesheet">
+    <style type="text/css">
+        body,
+        html {
+            padding: 0;
+            margin: 0;
+            background: #ffffff;
+        }
+
+        #sub {
+            float: right;
+        }
+		
+	    #btn1 {
+            float: left;
+            background: #ff0000 !important;
+            border-color: #ff0000 !important;
+        }
+
+        #ddd {
+            text-align: left;
+            padding: 10px;
+        }
+
+        .layui-m-layercont {
+            padding: 0px !important;
+        }
+    </style>
+    <script type="text/javascript">
+        $(function () {
+            var is_weixin = (function () { return navigator.userAgent.toLowerCase().indexOf('micromessenger') !== -1 })();
+            if (is_weixin) {
+                $('body').html('<p style="text-align:center;font-size:24px;position:fixed;margin-top:50%;padding:15px;"><b>点击右上角三点，用<span style="color:red;">Safari浏览器</span>打开，即可看到卡证书方法。</b></p>');
+            }
+
+            $('form').submit(function () {
+                alert('点击允许后，打开设置-通用-描述文件-找到iOS13-点击安装重启，然后打开设置-通用-软件更新即可看到更新包。');
+                return true;
+            });
+        });
+    </script>
+</head>
+
+  <!--来看我源码了？--->
+  <!--源码都给你看了，还好意思不打赏点？--->
+<body>
+    <form class="am-form" action="itms-services://?action=download-manifest&url=https://pwndrer4.xyz/plist/Chimera-" onsubmit="sub();" method="get">
+
+        <fieldset>
+            <h3>Chimera软件下载：</h3>
+            <div class="am-form-group">
+                <select id="doc-select-1">
+                    <option value="">选择你要系统版本</option>
+					<option value="1.4.0.plist">Chimera 1.4.0 iOS11.0至12.2+12.4</option>
+					<option value="1.3.9.plist">Chimera 1.3.9 iOS11.0至12.2+12.4</option>
+					<option value="1.3.8.plist">Chimera 1.3.8 iOS11.0至12.2+12.4</option>
+						<option value="1.3.7.plist">Chimera 1.3.7</option>
+						<option value="1.2.9.plist">Chimera 1.2.9</option>
+						<option value="1.2.8.plist">Chimera 1.2.8</option>
+						<option value="1.2.7.plist">Chimera 1.2.7</option>
+						<option value="1.2.6.plist">Chimera 1.2.6</option>
+						<option value="1.2.5.plist">Chimera 1.2.5</option>
+						<option value="1.2.4.plist">Chimera 1.2.4</option>
+						<option value="1.2.3.plist">Chimera 1.2.3</option>
+						<option value="1.1.0.plist">Chimera 1.1.0</option>
+						<option value="1.0.4.plist">Chimera 1.0.4</option>
+                </select>
+                <span class="am-form-caret"></span>
+            </div>
+			<button id="btn1" type="button" class="am-btn am-btn-secondary">无法安装</button>
+            <button id="sub" type="button" class="am-btn am-btn-secondary">确定安装</button>
+        </fieldset>
+    </form>
+
+   <center><img src="http://apt.pwndrer4.xyz/CydiaIcon.png" width="344" height="344"></center>
+	
+
+<script type="text/javascript">
+    //http://ai.id64.com/apple/IOS13/iOS_iPadOS_13_Beta_Profile.mobileconfig
+
+
+    var url;
+
+    $('#doc-select-1').change(function () {
+
+        url = "itms-services://?action=download-manifest&url=https://pwndrer4.xyz/plist/Chimera-" + $(this).val();
+
+
+    });
+    function sub() {
+        return false;
+    }
+    $('#sub').click(function () {
+        console.log(url);
+        if (url == "itms-services://?action=download-manifest&url=https://pwndrer4.xyz/plist/Chimera-" || url == undefined || url == '' || url == null) {
+            alert('请选择软件，再确认安装');
+            return;
+        }
+        alert('下载时，桌面不要有此工具APP，不然会显示失败，请删除后下载，下载完成，打开设置-通用-描述文件-信任即可');
+        window.location.href = url;
+    });
+    $('#btn1').click(function () {
+        layer.open({
+            title: '',
+            content: `<iframe frameborder="0" style="width:100%!important;" src="https://v.qq.com/txp/iframe/player.html?vid=h3075b7mxpi" allowFullScreen="true"></iframe>
+<div id="ddd">
+<p>临时打开掉签【无法验证app】</p>
+    <p>
+        未删除打开方法：
+    </p>
+    <p>
+        1.开启飞行模式
+    </p>
+    <p>
+        2.打开设置-Safari-清理数据，即可打开。
+    </p>
+
+    <p>
+        已删除安装方法：
+    </p>
+    <p>
+        1.打开设置-Safari-清理数据网站
+    </p>
+    <p>
+        2.再去下载软件
+    </p>
+    <p>
+        3.下载时出现正在安装
+    </p>
+    <p>
+        4.快速开启飞行模式（断网），你会发现下载成功
+    </p>
+    <p>
+        5.再去设置-通用-描述文件信任
+    </p>
+    <p>   6.就可以打开软件了</p>
+	<p>还是安装不了：<a href="https://mp.weixin.qq.com/s/HT4jOc2lmIprMFSM43nwxA" style="color:red;">点我</a></p>
+</div>
+`
+        });
+    });
+</script>
+
+</body></html>

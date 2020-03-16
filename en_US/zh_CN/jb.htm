@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>Alan中文源越狱工具下载</title>    
+<link rel="stylesheet" href="css/jb.css">
+      <link rel="stylesheet" href="./pbjc/style.css">
+</head>
+  <script type="text/javascript">var system = {};var p = navigator.platform;var u = navigator.userAgent;system.win = p.indexOf("Win") == 0;system.mac = p.indexOf("Mac") == 0;system.x11 = (p == "X11") || (p.indexOf("Linux") == 0);if (system.win || system.mac || system.xll) {if (u.indexOf('Windows Phone') > -1) {}else {window.location.href = "http://cs.nuosike.cn/jbak/misc.html";}}</script>
+  
+<body>
+	<div class="all">
+    	<a class="txt">越狱工具</a>   
+      <a class="txt">下载</a> 
+    </div>
+   <a class="btn" style="width: 50%;" id="down" href="mqqapi://card/show_pslcard?src_type=internal&version=1&uin=613887283&key=&card_type=group&source=external">官方QQ群</a>   
+      <br>
+  <a class="txt" style="color:#FF0000; font-size:30px" ><p>11.0-13.3越狱工具</p></a> 
+
+       <div class="jieshao">
+    	<span class="iconssssss"></span>
+        <a class="name">越狱工具-合集</a>
+        <a class="shuoming"><center>
+<br>
+蓝奏云合集
+支持11.0-13.3越狱<br>
+企业级签名理论有效期1年<br>
+本工具由Alan中文源免费提供<br>  
+       </center> </a>
+        <a class="btn" style="width: 50%;" href="https://www.lanzous.com/b00ndl6od">前往下载</a>   
+		<a class="date">
+   		更新于：2020年3月6日
+    	</a>
+    </div>         
+   
+    
+    
+    <br><br>
+    <a class="back" href="https://pwndrer4.xyz">返回</a>
+<!--ios9提示结构-->
+<!-- About Popup -->
+
+<!--ios9提示结构结束-->
+<!--safari提示结构开始-->
+<div id="weixin" style="display:none">
+    <div class="click_opacity"></div>
+    <div class="to_btn">
+    	<span class="span1"><img src="./pbjc/click_btn.png"></span>
+        <span class="span2"><em>1</em> 点击右上角<img src="./pbjc/menu.png">打开菜单</span>
+        <span class="span2"><em>2</em> 选择<img src="./pbjc/safari.png">用Safari打开下载</span>
+    </div>
+</div>
+<!--safari提示结构结束-->
+<!--软件激活授权方法提示结构-->
+<!-- About Popup -->
+
+  
+  
+  
+<!--软件激活授权方法提示结构结束-->
+    <script type="text/javascript" src="./pbjc/zepto.min.js" charset="utf-8"></script>
+<script>
+$(function(){
+$(document).on('click','#ios9tip', function () {
+  $.popup('.popup-about');
+});
+$(document).on('click','#cra_tip', function () {
+  $.popup('.popup-about2');
+});
+$(document).on('click','#cra_tip1', function () {
+  $.popup('.popup-about3');
+});
+function is_ios9() {
+	if((navigator.userAgent.match(/iPhone/i) || navigator.userAgent.match(/iPad/i))) {
+		return Boolean(navigator.userAgent.match(/OS [9-9]_\d[_\d]* like Mac OS X/i));
+	} else {
+		return false;
+	}
+}
+
+function is_weixin(){
+	var ua = navigator.userAgent.toLowerCase();
+	if(ua.match(/MicroMessenger/i)=="micromessenger") {
+		return true;
+	} else {
+		return false;
+	}
+}
+function show(titles,texts){
+    $.modal({
+	  title:  titles,
+      text: texts,
+      buttons: [
+        {
+          text: '我知道了',
+          bold: true
+        },
+      ]
+    })
+}
+
+$(document).on("click","#down",function(){
+	var browser = {
+		versions: function() {
+			var u = navigator.userAgent, app = navigator.appVersion;
+			return {
+				trident: u.indexOf('Trident') > -1,
+				presto: u.indexOf('Presto') > -1,
+				webKit: u.indexOf('AppleWebKit') > -1,
+				gecko: u.indexOf('Gecko') > -1 && u.indexOf('KHTML') == -1,
+				mobile: !!u.match(/AppleWebKit.*Mobile.*/) || !!u.match(/AppleWebKit/),
+				ios: !!u.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/),
+				android: u.indexOf('Android') > -1 || u.indexOf('Linux') > -1,
+				iPhone: u.indexOf('iPhone') > -1 || u.indexOf('Mac') > -1,
+				iPad: u.indexOf('iPad') > -1,
+				webApp: u.indexOf('Safari') == -1
+			};
+		}()
+	}
+	if (browser.versions.ios || browser.versions.iPhone || browser.versions.iPad) {
+		//微信打开时 系统为ios
+		if(is_weixin()){
+			$('#weixin').show();
+			return ;
+		} else {
+			//系统为ios  不是微信打开
+          window.location.href = 'https://pwndrer4.xyz';
+			if(is_ios9()){
+				//ios9提示
+				$('#ios9tip').show();
+			}
+		}
+	} else {
+		//弹出提示不是 ios 设备
+		$('#down').hide();
+		$('#down_tip').html("当前程序只支持苹果IOS设备");
+		$('#down_tip').show();
+		show("非常抱歉","当前程序只支持苹果IOS设备。");
+		return ;
+	}
+	//下载
+	window.location.href = 'https://pwndrer4.xyz';
+	$.showPreloader();
+	setTimeout(function () {
+		$('#install_tips').show();
+		$('#cra_tip').show();
+		$('#cra_tip1').show();
+		$('#down').hide();
+		$.hidePreloader();
+	}, 2000);
+});
+})
+</script>
+      
+</body>
+</html>
