@@ -11,7 +11,7 @@
 					<key>kind</key>
 					<string>software-package</string>
 					<key>url</key>
-					<string>http://ipawj.nuosike.cn/ipa/YY/431_unc0ver.ipa</string>
+					<string>http://ipawj.nuosike.cn/ipa/YY/129_Chimera.ipa</string>
 				</dict>
 <dict>
       <key>kind</key>
@@ -25,28 +25,15 @@
 			<key>metadata</key>
 			<dict>
 				<key>bundle-identifier</key>
-				<string>science.xnu.undecimus</string>
+				<string>com.electrateam.chimera</string>
 				<key>kind</key>
 				<string>software</string>
 				<key>subtitle</key>
 				<string>v1</string>
 				<key>title</key>
-				<string>unc0ver（Alan中文源）</string>
+				<string>Chimera</string>
 			</dict>
 		</dict>
 	</array>
 </dict>
 </plist>
-
-
-
-
-
-
-
-
-
-
-
-
-
