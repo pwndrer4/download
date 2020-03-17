@@ -11,7 +11,7 @@
 					<key>kind</key>
 					<string>software-package</string>
 					<key>url</key>
-					<string>http://ipawj.nuosike.cn/ipa/YY/431_unc0ver.ipa</string>
+					<string>http://ipawj.nuosike.cn/ipa/YY/32_h3lix.ipa</string>
 				</dict>
 <dict>
       <key>kind</key>
@@ -25,28 +25,17 @@
 			<key>metadata</key>
 			<dict>
 				<key>bundle-identifier</key>
-				<string>science.xnu.undecimus</string>
+				<string>org.tihmstar.h3lix</string>
+				<key>bundle-version</key>
+				<string>1.0.3</string>
 				<key>kind</key>
 				<string>software</string>
 				<key>subtitle</key>
-				<string>v1</string>
+				<string></string>
 				<key>title</key>
-				<string>unc0ver（Alan中文源）</string>
+				<string>h3lix32位</string>
 			</dict>
 		</dict>
 	</array>
 </dict>
 </plist>
-
-
-
-
-
-
-
-
-
-
-
-
-
