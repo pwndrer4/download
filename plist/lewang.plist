@@ -25,13 +25,13 @@
 			<key>metadata</key>
 			<dict>
 				<key>bundle-identifier</key>
-				<string>����</string>
+				<string>乐网</string>
 				<key>kind</key>
 				<string>software</string>
 				<key>subtitle</key>
 				<string>v1</string>
 				<key>title</key>
-				<string>����</string>
+				<string>乐网，获取更多资源关注Alan中文源</string>
 			</dict>
 		</dict>
 	</array>
