@@ -1,0 +1,462 @@
+
+    #app{
+      margin: 0 auto;
+      max-width: 500px;
+    }
+
+    .makeGray div{
+      background: #adadad !important;
+    }
+
+    .makeGray:hover div{
+      background: #adadad !important;
+    }
+
+    html,body{
+      /* font-family: sans-serif; */
+      font-family: 'Amiko', sans-serif;
+
+    }
+
+    .page-content{
+      /* background: white !important; */
+      /* background: #f2f9ff !important; */
+      background: #f3f7fb !important;
+    }
+
+    .top-bar{
+      /* border-bottom: #ececec 1px solid; */
+      background: white;
+      padding: 15px;
+    }
+
+    .top-bar::before{
+      box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 0 1px 5px 0 rgba(0,0,0,.12), 0 3px 1px -2px rgba(0,0,0,.2);
+    }
+
+    .top-bar .logo{
+      width: 60%;
+      text-align: center;
+      font-weight: 600;
+      display: inline-block;
+      font-size: 20px;
+    }
+
+    .makeGray{
+      background: #adadad !important;
+    }
+
+    .makeGray:hover{
+      background: #adadad !important;
+    }
+
+    .top-bar .side-menu{
+      width: 20%;
+      display: inline-block;
+    }
+
+    .refreshBtnDiv .refreshText{
+      display: none;
+      font-size: 13px;
+      color: #008800;
+      font-weight: bold;
+    }
+
+    .navbar{
+      /* box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 0 1px 5px 0 rgba(0,0,0,.12), 0 3px 1px -2px rgba(0,0,0,.2); */
+      /* box-shadow: 0 5px 10px 0 #daedfd, 0 16px 24px 0 #dcecf9, 0 3px 1px -2px #6cbbff; */
+      border-bottom: #ececec 1px solid;
+      /* border-bottom: none !important; */
+      background: white !important;
+    }
+
+    .navbar .right{
+      font-size: 15px;
+      /* padding-top: 5px; */
+
+    }
+
+    .navbar .navbar-inner{
+      top: 1px;
+    }
+
+    .navbar .right{
+      /* position: relative;
+      top: 2px; */
+    }
+
+    .navbar svg{
+      position: relative;
+      right: 5px;
+      top: 0;
+      width: 15px;
+    }
+
+    .navbar .left{
+      width: 20%;
+    }
+
+    .navbar .navbar-inner .title{
+      width: 60%;
+      text-align: center;
+      font-weight: 600;
+      margin: 0;
+    }
+
+    .navbar::before{
+      /* box-shadow: none !important; */
+      content: none !important;
+    }
+
+    .navbar::after{
+      /* box-shadow: none !important; */
+      content: none !important;
+    }
+
+    .navbar .left i{
+      /* color: black !important; */
+    }
+
+    .form-search{
+      width: 100%;
+      position: relative;
+    }
+
+    .form-search svg{
+      width: 16px;
+      position: absolute;
+      left: 11px;
+      top: 12px;
+    }
+
+    .form-search svg path{
+      fill: #848484;
+    }
+
+    .form-search .search-query{
+      font-size: 16px;
+      width: 100%;
+      background: #ffffff;
+      padding: 10px 10px 8px 10px;
+      border-radius: 3px;
+      border: 1px solid #efefef;
+      padding-left: 38px;
+    }
+
+    .tab-link{
+      text-decoration: none !important;
+    }
+
+    .tab-link-active .colorBlue{
+      fill: #007aff !important;
+    }
+
+    .page-body{
+      padding: 5px 15px;
+    }
+
+    .page-section{
+      margin-top: 30px;
+    }
+
+    .page-section .header{
+      font-weight: bold;
+      font-size: 22px;
+      border-bottom: 1px solid #e4e4e4;
+      color: #000;
+      padding-bottom: 3px;
+    }
+
+    .page-section .app{
+      width: 31.99%;
+      text-align: center;
+      margin-top: 30px;
+      display: inline-block;
+    }
+
+    .page-section .app .icon img{
+      width: 60px;
+      height: 60px;
+      border-radius: 15px;
+      box-shadow: 0 1px 1px 0 rgba(0,0,0,.48);
+    }
+
+    .page-section .app .title{
+      margin-top: 10px;
+      font-size: 15px;
+      font-weight: 600;
+      color: #313131;
+      overflow: hidden;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+    }
+
+    .page-section .app a{
+      color: #444 !important;
+      text-decoration: none !important;
+    }
+
+    .categories .collection{
+      margin-top: 15px;
+    }
+
+    .categories .category {
+      /* margin: 0 5px; */
+      display: inline-block;
+      /* width: 29%; */
+      width: 100%;
+      margin-bottom: 10px;
+    }
+
+    .categories .category .catbloc{
+      width: auto;
+      display: block;
+      text-align: center;
+      color: white;
+      font-weight: bold;
+      border-radius: 10px;
+      padding: 17px 5px;
+      font-weight: 700;
+      box-shadow: 0 10px 10px 0 rgba(142, 142, 142, 0.14), 0 1px 10px 0 rgba(239, 229, 229, 0.12), 0 3px 1px -2px rgba(158, 158, 158, 0.2);
+      margin: 0;
+    }
+
+    .categories .game{
+      background: #ff7e5f;
+      background: -webkit-linear-gradient(to right, #feb47b, #ff7e5f);
+      background: linear-gradient(to right, #feb47b, #ff7e5f);
+    }
+
+    .categories .apps{
+      background: #5ac8fa; */
+      background: -webkit-linear-gradient(to right, #5ac8fa, #2196f3);
+      background: linear-gradient(to right, #5ac8fa, #2196f3);
+    }
+
+    .categories .tweaks{
+      background: #f75372;
+      background: -webkit-linear-gradient(to right, #f9849a, #f75372);
+      background: linear-gradient(to right, #f9849a, #f75372);
+    }
+
+    .categories .jailbreak{
+      background: #f75372;
+      background: -webkit-linear-gradient(to right, #f9849a, #f75372);
+      background: linear-gradient(to right, #e79ff9, #cc4bec);
+    }
+
+    .categories .emulator{
+      background: #50c564;
+      background: -webkit-linear-gradient(to right, #73e286, #50c564);
+      background: linear-gradient(to right, #73e286, #50c564);
+    }
+
+    .categories .utilities{
+      background: #39dcc5;
+      background: -webkit-linear-gradient(to right, #54f3dd, #39dcc5);
+      background: linear-gradient(to right, #54f3dd, #39dcc5);
+    }
+
+    .app-page .installBtn{
+      text-decoration: none !important;
+      color: white !important;
+    }
+
+    .app-page .installBtn div{
+      margin: 0 auto;
+      margin-top: 20px;
+      max-width: 220px;
+      background: #3ec155;
+      padding: 15px 10px 10px 10px;
+      color: white;
+      font-weight: bold;
+      text-decoration: none !important;
+      border-radius: 4px;
+    }
+
+    .app-page .app-info ul{
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      padding: 5px 0;
+    }
+
+    .app-page .app-info li{
+      color: #000;
+      padding: 5px 0;
+    }
+
+    .app-page .app-info li span{
+      color: #4a4a4a;
+    }
+
+    .apps-list{
+      margin-top: 15px;
+    }
+
+    .apps-list .app-block img{
+      width: 100%;
+      border-radius: 10px;
+      box-shadow: 0 1px 1px 0 rgba(0,0,0,.48);
+    }
+
+    .apps-list a{
+      text-decoration: none !important;
+    }
+
+    .app-block{
+      /* margin-bottom: 10px; */
+      border-bottom: #ececec 1px solid;
+      padding: 10px 0 6px 0;
+    }
+
+    .apps-list .app-block .title{
+      font-weight: bold;
+      font-size: 15px;
+      overflow: hidden;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      color: #333;
+    }
+
+    .apps-list .app-block .category{
+      font-size: 10px;
+      color: #6b6b6b;
+    }
+
+    .apps-list .app-block .getBtn{
+      display: inline-block;
+      padding: 6px 20px 5px 20px;
+      background: #000000;
+      color: white;
+      border-radius: 5px;
+      font-size: 13px;
+      margin-top: 10px;
+      font-weight: bold;
+    }
+
+    .FanHui{
+      display: inline-block;
+      padding: 6px 20px 5px 20px;
+      background: #000000;
+      color: white;
+      border-radius: 5px;
+      font-size: 15px;
+      margin-top: 10px;
+      font-weight: bold;
+    }
+
+
+    .apps-list .app-block .getBtn a{
+      color: white !important;
+      font-weight: bold;
+      text-decoration: none !important;
+    }
+
+
+    .app-page .installBtn:hover div{
+      background: #248a36;
+    }
+
+    .app-page .info-header{
+      /* margin-top: 50px; */
+    }
+
+    .app-page .info-header{
+      text-align: center;
+      position: relative;
+    }
+
+    .app-page .app-details .header{
+      font-weight: 600 !important;
+    }
+
+    .app-page .app-details{
+      margin-top: 40px;
+    }
+
+    .app-page .page-section .content{
+      padding: 10px 0;
+      color: #4a4a4a;
+    }
+
+    .app-page .page-body{
+      overflow: hidden;
+    }
+
+    .app-page .navbar{
+      box-shadow: none !important;
+    }
+
+    .app-page .navbar::before{
+      /* box-shadow: none !important; */
+      content: none !important;
+    }
+
+    .app-page .info-header .icon{
+      padding-top: 40px;
+    }
+
+    .app-page .info-header .icon img{
+      width: 100%;
+      border-radius: 15px;
+      box-shadow: 0 1px 1px 0 rgba(0,0,0,.48);
+      max-width: 120px;
+      /* background: #fbfbfb; */
+    }
+
+    .app-page .info-header .right{
+      /* width: 70%; */
+      /* display: inline-block; */
+      padding-left: 10px;
+      padding-top: 5px;
+    }
+
+    .app-page .info-header .app-name{
+      font-weight: 600;
+      font-size: 25px;
+      margin-top: 20px;
+    }
+
+    .app-page .info-header .app-version{
+      font-size: 14px;
+      margin-top: 5px;
+      color: #7d7d7d;
+    }
+
+    .header__background{
+      position: absolute;
+      width: 200%;
+      height: 288px;
+      top: 0;
+      left: 50%;
+      background-color: #191919;
+      -webkit-transform: rotate(6deg) translate(-50%,-50%);
+      transform: rotate(6deg) translate(-50%,-50%);
+      overflow: hidden;
+      border-bottom: 1px solid #f3f7fc;
+      z-index: -1;
+      overflow: overlay;
+    }
+
+    .header__background .header__actual-background{
+      display: block;
+      position: absolute;
+      width: 100%;
+      height: 70%;
+      left: 0;
+      bottom: -10%;
+      -webkit-transform: rotate(-6deg);
+      transform: rotate(-6deg);
+      /* background-image: url(https://cdn-site.aptoide.com/imgs/v.1/img-header.png); */
+      background-image: url('http://app.iosninja.io/img/apps-header-bg-min.jpg');
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: 95% auto;
+      opacity: 0.5;
+      filter: blur(10px);
+    }
+
+    .qa .question{
+      font-weight: bold;
+    }
